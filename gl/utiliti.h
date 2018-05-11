@@ -7,5 +7,6 @@
 #include<vector>
 
 std::string readFile(const GLchar* path);
-GLint compileShader(const GLint shaderType, const GLchar* path);
+GLint compileShader(GLuint shaderType, GLchar* path);
+GLint compileShaderProgram(const GLchar* vertexPath, const GLchar* fragmentPath);
 #endif
