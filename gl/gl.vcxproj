@@ -39,7 +39,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\WebGL\gl\lib\sdl\include;D:\WebGL\gl\lib\gl\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\WebGL\gl\lib\glm;D:\WebGL\gl\lib\sdl\include;D:\WebGL\gl\lib\gl\include;$(IncludePath)</IncludePath>
     <LibraryPath>D:\WebGL\gl\lib\sdl\lib\x86;D:\WebGL\gl\lib\gl\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">

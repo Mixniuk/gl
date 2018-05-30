@@ -1,20 +1,26 @@
-﻿Build started 07.05.2018 16:42:45.
+﻿Build started 29.05.2018 17:35:00.
      1>Project "D:\WebGL\gl\gl\gl.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-     1>cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
          main.cpp
-     1>d:\webgl\gl\gl\main.cpp(124): warning C4244: '=' : conversion from 'Uint32' to 'GLfloat', possible loss of data
-     1>d:\webgl\gl\gl\main.cpp(125): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\webgl\gl\gl\main.cpp(126): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>d:\webgl\gl\gl\main.cpp(133): warning C4244: 'argument' : conversion from 'GLfloat' to 'Uint32', possible loss of data
-     1>d:\webgl\gl\gl\main.cpp(165): warning C4244: 'argument' : conversion from 'Sint32' to 'GLfloat', possible loss of data
+     1>d:\webgl\gl\source\obj_loader.h(618): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\webgl\gl\source\obj_loader.h(655): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\webgl\gl\source\obj_loader.h(661): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\webgl\gl\source\obj_loader.h(915): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\webgl\gl\gl\main.cpp(107): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\webgl\gl\gl\main.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\webgl\gl\gl\main.cpp(172): warning C4244: '=' : conversion from 'Uint32' to 'GLfloat', possible loss of data
+     1>d:\webgl\gl\gl\main.cpp(173): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\webgl\gl\gl\main.cpp(174): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\webgl\gl\gl\main.cpp(187): warning C4244: 'argument' : conversion from 'GLfloat' to 'Uint32', possible loss of data
+     1>d:\webgl\gl\gl\main.cpp(214): warning C4244: 'argument' : conversion from 'Sint32' to 'GLfloat', possible loss of data
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\WebGL\gl\Debug\gl.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2test.lib glew32.lib glew32s.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\WebGL\gl\Debug\gl.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\WebGL\gl\Debug\gl.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Shader.obj
          Debug\utiliti.obj
          gl.vcxproj -> D:\WebGL\gl\Debug\gl.exe
      1>Done Building Project "D:\WebGL\gl\gl\gl.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.09
+Time Elapsed 00:00:01.46
