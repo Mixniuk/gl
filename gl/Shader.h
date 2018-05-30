@@ -11,6 +11,8 @@ public:
 	Shader(const GLchar* vertexSourcePath, const GLchar* fragmentSourcePath);
 	~Shader();
 
+	operator GLuint();
+
 	void use();
 };
 

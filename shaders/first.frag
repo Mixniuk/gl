@@ -5,6 +5,7 @@ uniform float time;
 uniform vec2 mouseCorr;
 out vec4 color;
 in vec3 colorOut;
+in vec3 positionOut;
 in vec4 gl_FragCoord;
 
 void main(){
@@ -25,9 +26,11 @@ void main(){
     float green = (colorOut.g + sin((time + 30) * 180 / (3.14 * 20000) / 2.0f + 0.5f)) / 2.0f;
     float blue = (colorOut.b + sin((time + 60) * 180 / (3.14 * 40000) / 2.0f + 0.5f)) / 2.0f;
 
-    color = vec4(
-    vec3(red, green, blue) - radiusV/500.0f,
-    1.0f);
+    // color = vec4(
+    // vec3(red, green, blue) - radiusV/500.0f,
+    // 1.0f);
+
+    color = vec4(colorOut, 1.0f);
 
     // color = vec4(
     // mouseCorr.x / 2.0f + 0.5f,

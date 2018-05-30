@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DEFECTS><DEFECT><SFA><FILEPATH>d:\webgl\gl\gl\</FILEPATH><FILENAME>main.cpp</FILENAME><LINE>92</LINE><COLUMN>11</COLUMN></SFA><DEFECTCODE>6340</DEFECTCODE><DESCRIPTION>Mismatch on sign: 'unsigned int' passed as _Param_(2) when some signed type is required in call to 'printf_s'.</DESCRIPTION><FUNCTION>SDL_main</FUNCTION><DECORATED>SDL_main</DECORATED><FUNCLINE>48</FUNCLINE><PATH/></DEFECT></DEFECTS>
